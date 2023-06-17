@@ -21,6 +21,7 @@ class Solution {
     public void dfs(int x, String result, String[] words) {
         wordSet.add(result);
         //System.out.println(result);
+        
         for(int i=0; i<words.length; i++) {
             if(!visited[i]) {
                 visited[i] = true;
